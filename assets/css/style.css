@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+::-moz-selection {
+  background: #99c1da;
+}
+
+::selection {
+  background: #99c1da;
+}
+/* =========== Header Section ==========*/
+header {
+  background: #f0fff0;
+  padding: 20px 0;
+}
+.logo {
+  width: 180px;
+}
+.nav-link {
+  font-weight: 500;
+  margin-right: 12px;
+  font-size: 16px;
+  color: black !important;
+  transition: transform ease-in-out 0.3s;
+}
+.nav-link:hover {
+  transform: translateY(-2px);
+}
+.btn-default {
+  border: none;
+  padding: 12px 28px;
+  background: #21b573;
+  border-radius: 33px;
+  color: #fff;
+  height: 43px;
+  font-size: 16px;
+  line-height: 1;
+  transition: all ease-in-out 0.4s;
+}
+.btn-default:hover {
+  transform: translateY(-3px);
+  background: #09a861;
+}
+.btn-default:focus {
+  outline: none;
+}
+/* Banner */
+.banner {
+  padding: 40px 10px;
+}
+.banner-image img {
+  width: 90%;
+  margin-top: 10px;
+}
+.banner h6 {
+  color: #fd511a;
+  font-size: 16px;
+}
+.banner h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 70px;
+}
+.banner .text-highlight {
+  color: #21b573;
+}
+.banner p {
+  color: #6c6b6b;
+  font-size: 16px;
+  padding: 15px 0;
+  line-height: 2;
+}
+/* =========== Books Section ==========*/
+.books-area {
+  padding: 50px 0;
+}
+.books-content {
+  background: #f8fffb;
+  border-radius: 10px;
+  text-align: center;
+  height: 240px;
+  padding: 30px 0;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: box-shadow ease-in-out 0.3s;
+}
+.books-content:hover {
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+.books-image {
+  height: 80px;
+}
+.books-image img {
+  width: 70px;
+}
+.books-content h3 {
+  font-size: 24px;
+  padding-top: 25px;
+  color: #413960;
+  font-weight: 500;
+}
+.books-content p {
+  font-size: 16px;
+  color: #585859;
+}
+/* =========== Courses Section ==========*/
+.courses-area {
+  padding: 40px 0;
+}
+.courses-area h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  color: #413960;
+}
+.card {
+  border: none;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  padding: 10px 0;
+}
+.card img {
+  margin: auto;
+  width: 90%;
+}
+.card .card-title {
+  font-weight: 500;
+  font-size: 24px;
+  color: #413960;
+}
+.card .card-text {
+  color: #585859;
+}
+.date-info .card-text {
+  font-weight: 500;
+  color: #585859;
+  font-size: 15px;
+}
+.card-text img {
+  width: 20px;
+}
+.buy-course-btn {
+  padding: 8px 20px;
+  height: 35px;
+}
+/* =========== Testimonial Section ==========*/
+.testimonial-area {
+  padding: 50px 0;
+}
+.testimonial-area h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+}
+.testimonial-image img {
+  width: 80%;
+}
+/* =========== Contact Section ==========*/
+.contact-area {
+  padding: 60px 0;
+  background: rgba(211, 211, 211, 0.089);
+}
+.address h3 {
+  font-weight: 500;
+  font-size: 36px;
+}
+.address li,
+a {
+  list-style: none;
+  color: lightslategray;
+  line-height: 2;
+}
+.contact-block input,
+.contact-block textarea {
+  border-radius: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 22px 15px;
+  letter-spacing: 2px;
+  background: transparent;
+}
+.contact-block input:focus {
+  border-color: lightslategray;
+  box-shadow: none;
+}
+.contact-block textarea:focus {
+  border-color: lightslategray;
+  box-shadow: none;
+}
+.submit-btn {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 12px 0;
+}
+/* =========== Others Section ==========*/
+.others {
+  background: #282531;
+  padding: 50px 0 0;
+}
+.others-text p {
+  color: #fff;
+}
+.others-link ul li a {
+  color: #fff;
+  font-weight: normal;
+}
+.link-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  list-style: none;
+}
+/* Footer */
+footer {
+  padding: 70px 0 20px;
+  text-align: center;
+}
+footer p {
+  color: #cdcdcd;
+}
+footer h6 {
+  color: #cdcdcd;
+  font-size: 14px;
+}
+/* =========== Completed ==========*/

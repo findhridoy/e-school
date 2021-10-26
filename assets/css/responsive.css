@@ -1,0 +1,65 @@
+/* For Desktop, Laptop */
+@media screen and (max-width: 992px){
+    .date-info .card-text{
+        font-size: 12px;
+    } 
+}
+/* For Laptop, Tablets */
+@media screen and (max-width: 768px){
+    /* Banner Section */
+    .banner h6{
+        font-size: 14px;
+    }
+    .banner h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .banner p{
+        font-size: 13px;
+    }
+    /* Others Section */
+    .others-link ul{
+        padding: 0;
+    }
+    .others-text p{
+        display: none;
+    }
+}
+/* For Tablets, Phone */
+@media screen and (max-width: 576px){
+    /* Banner Section */
+    .banner-content{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-image{
+        margin-top: 50px;
+    }
+    /* Courses Section */
+    .date-info .card-text{
+        font-size: 16px;
+    } 
+    /* Testimonial Section */
+    .testimonial-area{
+        text-align: center;
+    }
+    .testimonial-image img{
+        width: 50%;
+        padding: 25px 0;
+    }
+    /* Others Section */
+    .others-link ul li a{
+        font-size: 14px;
+     }
+    /* Footer Section */
+    footer {
+        padding: 50px 0 20px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+    footer h6{
+        font-size: 12px;
+    }
+}
+/* ======== The End =======*/
